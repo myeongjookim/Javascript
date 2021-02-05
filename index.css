@@ -2,7 +2,7 @@ body {
     background-color: wheat;
 }
 
-h1 {
+body{
     color: tomato;
     transition: color .5s ease-in-out;
 }
@@ -11,4 +11,12 @@ h1 {
 }
 .clicked {
     color: teal;
+}
+
+.form,
+.grettings {
+    display: none;
+}
+.showing {
+    display: block;
 }
